@@ -25,7 +25,7 @@ while True:
 	frame = frame if video_path is None else frame[1]
 
 	#keeps track of the state of motion detection 
-	state = “No change”
+	state = "No change"
 
 	#if there is no more frame in the video leave the loop 
 	if frame is None:  
